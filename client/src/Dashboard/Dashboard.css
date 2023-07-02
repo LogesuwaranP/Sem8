@@ -1,0 +1,71 @@
+
+.Template-main{
+
+    width: 1200px;
+    height: 800px;
+    margin-left: 1%;
+
+
+    background-color: #F7F6F9;
+    box-shadow: 0px 10px 70px rgba(100, 37, 254, 0.04);
+    border-radius: 12px;
+}
+
+.main-page{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    isolation: isolate;
+
+
+    position: absolute;
+    width: 980px;
+    height: 700px;
+    left: 210px;
+    top: 60px;
+
+}
+
+.Returns-Feedback{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+
+    width: 980px;
+    height: 270px;
+
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+}
+
+.Sales-Lowstock{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 25px 23px 31px 0px;
+    gap: 20px;
+
+
+    width: 950px;
+    height: 324px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    z-index: 2;
+}

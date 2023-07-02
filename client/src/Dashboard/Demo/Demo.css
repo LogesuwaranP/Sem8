@@ -1,0 +1,77 @@
+.demo-main{
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+
+
+}
+
+.demo{
+    width: 350px;
+    height: 200px;
+    background-color: rgb(177, 179, 190);
+    border-radius: 4px;
+    transition: translate 0.25s;
+                box-shadow: 0.25s;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 50px 125px;
+
+
+}
+
+.demo:hover{
+    translate: 0 -20px;
+    box-shadow:
+               3px 2px rgba(217 220 242 / 75%),
+               6px 4px rgba(44 217 255 / 50%),
+               9px 6px rgba(0, 255, 102, 0.25);
+}
+
+
+
+.card-i{
+    width: 200px;
+    height: 100%;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.demo-text{
+    
+    width: 170px;
+    text-align: center;
+    
+
+}
+
+.demo-text> h2{
+    
+    padding: 3px;
+    margin: 10px;
+
+}
+.demo-text> h3{
+    
+    padding: 3px;
+    margin: 10px;
+
+}
+
+.demo-text> hr{
+    
+   margin: auto;
+
+}
+
+.demo-text> button{
+
+    font-weight: 550;
+    padding: 5px;
+    margin: 15px;
+    width: 100px;
+ 
+ }

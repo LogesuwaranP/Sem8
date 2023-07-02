@@ -1,0 +1,28 @@
+.sales-main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 22.9338px 23px 22.9338px 35px;
+    gap: 31.04px;
+
+    width: 650px;
+    height: 320px;
+
+    background: linear-gradient(152.97deg, #356CD3 18.75%, rgba(46, 88, 159, 0.1) 100%);
+
+    /* Note: backdrop-filter has minimal browser support */
+    /* background-color: aliceblue; */
+    border-radius: 15.2892px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.sales-main>h1{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+}

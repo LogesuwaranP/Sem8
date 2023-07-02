@@ -1,0 +1,23 @@
+
+.return-main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 22.9338px 15px 22.9338px 34px;
+    gap: 56px;
+
+    width: 400px;
+    height: 250px;
+
+    background: linear-gradient(152.95deg, #356CD3 29.87%, rgba(46, 88, 159, 0.1) 98.96%);
+    /* backdrop-filter: blur(20.0671px); */
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 15.2892px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

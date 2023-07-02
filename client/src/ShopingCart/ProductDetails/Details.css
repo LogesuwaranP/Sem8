@@ -1,0 +1,46 @@
+.details-table{
+    margin: 5% ;
+
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 80%;
+    border: 1px solid #ddd;
+}
+.Details-Page table{
+    margin: auto;
+}
+.Details-Page td{
+    border-color: rgb(231, 231, 231);
+}
+.Details-Page tr:hover {
+    background-color: rgb(80, 179, 255);
+}
+
+.details-table>th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.2em;
+  }
+.details-table>th {
+
+    width: 40%;
+    font-weight: 1000;
+    text-align: center;
+    
+  }
+
+.details-table>tr:nth-child(even) {
+    background-color: #cccccc;
+    
+}
+
+.Details-Page{
+    background-color: aliceblue;
+}
+
+.Details-Page>h1{
+    text-align: center;
+}

@@ -1,0 +1,202 @@
+.AF-main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 26px 22.9338px 2.9338px;
+    gap: 30.58px;
+    width: 70%;
+    margin: 20px auto;
+
+    /* width: 488px; */
+    /* height: 250px; */
+    color: #e0e0e0;
+    font-size: 10px;
+    font-weight: 600;
+
+    background: linear-gradient(152.76deg, #3F2B96 0%, rgba(90, 93, 172, 0.773802) 67.73%, rgba(168, 192, 255, 0.57) 109.04%);
+
+
+
+    border-radius: 15.2892px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.AF-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 280px;
+
+
+    width: 414px;
+    height: 18px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.AF-header>h3{
+    width: 182px;
+    height: 22px;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.AF-contant{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 0px 3px;
+    gap: 10.5px;
+
+    width: 100%;
+    height: 80%;
+    /* background-color: aqua; */
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.AF-title{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 55px;
+    margin-left: 10px;
+
+    /* background-color: rgb(255, 0, 0); */
+
+    width: 100%;
+    height: 20px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.AF-suggestion{
+
+    
+    width: 155px;
+}
+
+.AF-feedback1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 65px;
+
+    width: 100%;
+    height: 29.19px;
+    margin-left: 20px;
+    
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+
+.AF-user-name{
+
+    width: 130px;
+}
+
+.AF-profile{
+
+    margin-top: auto;
+    width: 35px;
+    height: 35px;
+    border-radius: 25PX;
+    /* background-image: url('https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png'); */
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVF6VJ9bs7dZYnS1svMvvaDOJxd9hI9JYt2vKjHUn4&s'); */
+    /* background-image: url('https://png.pngtree.com/png-vector/20191101/ourmid/pngtree-cartoon-color-simple-male-avatar-png-image_1934459.jpg'); */
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.AF-user-name-title{
+    width: 140px;
+}
+
+.AF-feedback1>span{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.AF-line{
+
+    width: 100%;
+    height: 0px;
+    margin-bottom: 5px;
+
+    border: 1.02476px solid rgba(206, 206, 206, 0.3);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+/* .user-id{
+
+} */
+
+.AF-rating{
+    width: 30px;
+    height: 70%;
+    text-align: center;
+    border-radius: 15px;
+    border: 1.02476px solid rgba(206, 206, 206, 0.3);;
+}
+
+.AF-delete>h1{
+    margin: 10px 30px 10px 50px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #e2e2e2;
+
+}
+
+.AF-delete:hover{
+    cursor:pointer;
+}

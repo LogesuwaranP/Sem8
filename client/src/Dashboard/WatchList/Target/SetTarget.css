@@ -1,0 +1,115 @@
+.S-main{
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+  
+    gap: 29.5px;
+  
+    width: 100%;
+    height: 648px;
+    font-size: 20px;
+  
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  
+  }
+  
+  .S-main>h3{
+    margin-top: 30px;
+    margin-bottom: -35px;
+    text-align: center;
+
+  }
+
+  .S-main>p{
+  
+     font-weight: 520;
+     text-align: center;
+     word-spacing: 10px;
+     margin-top: 40px;
+  }
+
+  .S-flex{
+    display: flex;
+    align-items: center;
+    gap: 109.5px;
+    width: 500px;
+    justify-content: space-between;
+  }
+
+  .S-flex>input {
+
+    width: 100px;
+    text-align: center;
+    
+
+  }
+
+  .S-PStyle {
+    font-weight: 520;
+  }
+
+  .S-container {
+    position: relative;
+    width: 100%;
+    border-radius: 8px 8px 2px 2px;
+  
+    box-sizing: border-box;
+    height: 100%;
+    display: flex; /* Add this line to make the container a flex container */
+    align-items: flex-end; /* Add this line to align items to the bottom */
+  }
+  
+  .S-Loading {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .SLoading-after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 0%;
+    height: 100%;
+    border-radius: 8px;
+    animation: load 5s infinite;
+  }
+  
+  @keyframes load {
+    0% {
+      width: 0%;
+    }
+    /* 50% {
+      width: 100%;
+    }
+    100% {
+      width: 0%;
+    } */
+  }
+
+
+.S-button{
+    width: 150px;
+    padding: 10px;
+    font-weight: 550;
+    font-size: 16px;
+    border: 1px solid gray ;
+    color: #4f546c;
+    font-family: 'Arial';
+    background-color: white;
+
+}
